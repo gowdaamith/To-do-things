@@ -8,8 +8,10 @@ In detached mode
 ```bash
 docker compose up -d
 ```
-
-
+To just stop all the containers defined in the compose.yaml file 
+```bash
+docker compose stop
+```
 
 To stops all the container and remove conatiner and network created by the compose use
 ```bash
